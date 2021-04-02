@@ -1,0 +1,274 @@
+div {
+    display: flex;
+    justify-content: center;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+h1 {
+    text-align:center;
+    font-size: 62px;
+    font-family: 'Source Code Pro', monospace;
+    color: red;
+}
+h2{
+    text-align: right;
+    font-family: 'Abel', sans-serif; 
+}
+figure{
+    text-align: center;
+    font-size: 16px;
+}
+header{
+    border: 3px solid mediumturquoise;
+    background-color: mintcream;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    flex-shrink: 0;
+}
+
+body{
+    background-color: lightgray;
+    overflow-x: hidden;
+    margin: auto;
+
+}
+main{
+    background-color: white;
+    width: 80%;
+    padding: 2em;
+    display: flex; 
+    justify-content: center;
+    flex-direction: column;
+}
+.active{
+    background-color: lightsalmon;
+    width: 100%;
+}
+ul{
+    list-style-type: none;
+}
+footer{
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    padding: 2em;
+    
+}
+
+#energy1 {
+    width: 70%;
+}
+
+#energy2 {
+    width: 60%;
+}
+p{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+table, th, td {
+    border-collapse: collapse;
+    border: 1px solid black;
+} 
+table {
+    margin: 0 auto;
+}
+th {
+    background-color: blueviolet;
+    color: white;
+}
+#row{
+    background-color: lightblue;
+    color: black;
+}
+.row1 {
+    background-color: greenyellow;
+    color: black;
+}
+.row2 {
+    background-color: yellow;
+    color: black;
+}
+.row3 {
+    background-color: orange;
+    color: black;
+}
+#Sessions {
+    text-align: left;
+    font-size: 30px;
+    color: black;
+}
+#sessionList {
+    list-style-type: disc;
+    font-size: 20px;
+    color: black;
+}
+.message {
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    border: 3px double rgb(90, 22, 84);
+    background-color: rgb(246, 238, 248);
+    margin: 3%;
+    padding: 0.5%;
+}
+.loginH1 {
+    margin-top: 20%;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+
+#ThanksDialog {
+    text-align: left;
+    border: 2px solid blue;
+    border-radius: 25px;
+    background-color: whitesmoke;
+    margin-left: -100%;
+    padding: 0.5%;
+    width: 45%;
+    height: 0%;
+}
+.thankYouH{
+    text-align: left;
+    font-size: 30px;
+    border: 2px solid hotpink;
+    background-color: lightblue;
+}
+.thankYouP{
+    text-align: left;
+    font-size: 16px;
+}
+input:invalid {
+    background-color: rgb(248, 203, 198);
+  }
+form:invalid {
+    border: 5px solid white;
+}
+input:valid {
+    background-color: rgb(184, 240, 184);
+} 
+form:valid {
+    border: 5px solid white;
+}   
+input:required {
+    border-color: maroon;
+    border-width: 3px;
+}
+input:required:invalid {
+    border-color: orangered;
+}
+#closeButton{
+    margin-left: 25%;
+}
+#ThanksDialog.show{
+    margin-left: 3%;
+    width: 45%;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-basis: auto;
+    padding: 0;
+    list-style-type: none;
+}
+
+form {
+    display: inline-grid;
+}
+
+h3{
+    font-size: 36px; 
+    display: flex;
+    flex-direction: column;
+}
+.detailDisplay{
+    color: black;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.itemDisplay{
+    font-size: 12px;
+}
+.BoldTitle{
+    color: black;
+}
+#Activity{
+    display: flex;
+    flex-direction: column;
+    border: solid black;
+    padding: 2em;
+    
+}
+.AdminActivity{
+    width: 70%;
+}
+#activity{
+    width: 18em;
+}
+#dates{
+    width: 18em;
+}
+#descriptions{
+    width: 25em;
+}
+.nameDatesDescriptions{
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.ndd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20em;
+    padding: 1em;
+}
+#AddButton{
+    width: 10em;
+}
+.merchDisplay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+#merchItems{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
+#shirt{
+    height: 24em;
+}
+#hoodie{
+    height: 24em;
+}
+#bomberJacket{
+    height: 24em;
+}
+#windbreaker{
+    height: 24em;
+}
+.loginBody{
+    padding-left: 100%;
+    padding-right: 100%;
+    display: flex;
+    
+}
+#root{
+    margin-top: 20%;
+    
+}
+
+/*# sourceMappingURL=/style.f355281c.css.map */
